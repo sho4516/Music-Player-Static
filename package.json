@@ -1,11 +1,10 @@
 {
-  "name": "music-player-1",
+  "name": "music-player-static",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "description": "Static music player",
   "scripts": {
-    "start": "serve",
-    "build": "echo This is a static template, there is no bundler or bundling involved!"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,7 @@
   },
   "homepage": "https://github.com/codesandbox-app/static-template#readme",
   "devDependencies": {
+    "parcel": "^2.12.0",
     "serve": "^11.2.0"
   }
 }
